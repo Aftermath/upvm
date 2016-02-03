@@ -18,8 +18,8 @@ These two are not required, but are highly recommended for bash-tab-completion &
 
 You can clone the git repo and execute `upvm.py` from it. For rpm installation in RHEL 7.2+ and Fedora 22+:
 
-1. `dnf install http://people.redhat.com/rsawhill/rpms/latest-rsawaroha-release.rpm`
-1. `dnf install upvm`
+1. `yum / dnf install http://people.redhat.com/rsawhill/rpms/latest-rsawaroha-release.rpm`
+1. `yum / dnf install upvm`
 1. `/usr/share/upvm/initial-setup`
 1. `upvm -h`
 
